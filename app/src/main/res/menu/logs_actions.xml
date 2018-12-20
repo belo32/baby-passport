@@ -1,0 +1,14 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_log"
+        android:title="@string/add_action_title"
+        android:icon="@drawable/ic_action_new_event"
+        app:showAsAction="always" />
+	<!-- <item android:id="@+id/feed_action"
+	    android:title="Feed"></item>
+	<item android:id="@+id/bowel_action"
+	    android:title="Bowel"></item>
+	<item android:id="@+id/wet_action"
+	    android:title="Wet"></item>
+	-->
+</menu>

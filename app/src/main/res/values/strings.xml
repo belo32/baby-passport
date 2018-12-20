@@ -1,0 +1,67 @@
+<resources >
+    <string name="app_name">Baby Passport</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Baby Info</string>
+    <string name="title_section2">Log</string>
+    <string name="title_section3">Contacts</string>
+    
+    <string name="baby_name_section">Name</string>
+    <string name="baby_dob_section">Date of Birth</string>
+    <string name="baby_due_date_section">Due Date</string>
+    <string name="baby_birth_weight_section">Birth Weight</string>
+    <string name="baby_dis_date_section">Discharge Date</string>
+    <string name="baby_dis_weight_section">Discharge Weight</string>
+    <string name="baby_feeding_section">Feeding Type</string>
+    <string name="baby_bottle_feed_section">Bottle Feeding</string>
+    <string name="baby_breast_feed_section">Breast Feeding</string>
+    <string name="baby_sex_section">Sex</string>
+    <string name="baby_info_title">Baby Information</string>
+
+    <string name="edit_action_title">Edit</string>
+    <string name="add_action_title">Add</string>
+    <string name="done_title">Done</string>
+    <string name="edit_date_title">Date</string>
+    <string name="edit_time_title">Time</string>
+    
+    <string name="contact_phone_section">Phone</string>
+    <string name="contact_address_section">Address</string>
+	<string name="contact_name_section">Name</string>
+	<string name="contact_type_section">Type</string>
+	<string name="contact_type_doctor">Family Doctor</string>
+	<string name="contact_type_paediatrician">Paediatrician</string>
+	<string name="contact_type_midwife">Midwife</string>
+	<string name="contact_type_other">Other</string>
+	
+	<string name="new_profile">New Profile</string>
+	<string name="save_action_title">Save</string>
+	<string name="new_contact">Add Contact</string>
+	
+	<string name="error_name_required">Name Required</string>
+	
+	<string name="log_type_feed">F</string>
+	<string name="log_type_wet">W</string>
+	<string name="log_type_bowel">B</string>
+	
+	<string name="weight_type_lb">lb</string>
+	<string name="weight_type_kg">kg</string>
+	
+	<string name="feeding_type_breast">Breast</string>
+	<string name="feeding_type_bottle">Bottle</string>
+	
+	<string name="cancel">Cancel</string>
+	<string name="delete">Delete</string>
+	<string name="call">Call</string>
+	
+	
+	<string name="delete_title">Delete Baby Profile</string>
+	<string name="delete_msg">This profile will disappear from your phone</string>
+	<string name="delete_now">Delete now</string>
+	
+	<string name="delete_contact_title">Delete Contact?</string>
+	<string name="delete_contact_msg">This contact will disappear from your phone</string>
+	
+	<string name="delete_log_title">Delete Log?</string>
+	<string name="delete_logs_msg">This Log will be removed from the list</string>
+	
+	<string name="log_type">type</string>
+</resources>

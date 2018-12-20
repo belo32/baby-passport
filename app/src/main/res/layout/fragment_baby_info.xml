@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_green"
+        android:orientation="vertical"
+        tools:context=".MainActivity$BabyInfoFragment" >
+
+        <TextView
+            android:id="@+id/baby_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/section_header"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textColor="@color/header_text_color"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_dob_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_due_date_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_due_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_birth_weight_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_birth_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_dis_date_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_discharge_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_dis_weight_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_discharge_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:paddingTop="@dimen/top_padding"
+            android:text="@string/baby_feeding_section"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sub_header_text_color" />
+
+        <TextView
+            android:id="@+id/baby_feeding_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/header_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</ScrollView>

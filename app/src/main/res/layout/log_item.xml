@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/log_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:drawableTop="@drawable/bottle_icon_circle"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       	android:contentDescription="@string/log_type"
+       	 />
+
+
+    <TextView
+        android:id="@+id/log_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/log_icon"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/log_icon"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/sub_header_text_color"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+         android:layout_alignBaseline="@id/log_icon"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        >
+    <TextView
+        android:id="@+id/log_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/header_text_color"
+        android:textAppearance="?android:attr/textAppearanceLarge" />	
+     
+    	 <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/bg_gray" />
+        <Button
+        android:id="@+id/log_delete"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        
+        
+               
+        android:drawableLeft="@drawable/ic_action_discard_h"
+        style="?android:attr/borderlessButtonStyle"
+        android:visibility="gone"
+        />
+        <!-- android:background="@drawable/ic_action_discard_h"-->
+    </LinearLayout>
+   
+
+</RelativeLayout>

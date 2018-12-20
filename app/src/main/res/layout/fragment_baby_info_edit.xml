@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity$BabyInfoFragment" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_name_section" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_dob_section" />
+
+    <Spinner
+        android:id="@+id/edit_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_due_date_section" />
+
+    <Spinner
+        android:id="@+id/edit_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_birth_weight_section" />
+
+    <EditText
+        android:id="@+id/edit_birth_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_dis_date_section" />
+
+    <Spinner
+        android:id="@+id/edit_dis_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_dis_weight_section" />
+
+    <EditText
+        android:id="@+id/edit_dis_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_header_text_color"
+        android:text="@string/baby_feeding_section" />
+
+    <RadioGroup
+        android:id="@+id/edit_feeding_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/edit_bottle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/baby_bottle_feed_section" />
+
+        <RadioButton
+            android:id="@+id/edit_breast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baby_breast_feed_section" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
+</ScrollView>

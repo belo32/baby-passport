@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+		android:paddingLeft="@dimen/header_vertical_margin"
+		android:textColor="@color/header_text_color"
+       
+        />
+
+    <TextView
+        android:id="@+id/contact_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/section_header"
+        android:textColor="@color/sub_header_text_color"
+        android:paddingLeft="@dimen/header_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_phone_section"
+        android:paddingTop="@dimen/top_padding"
+        android:textColor="@color/sub_header_text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="@dimen/header_vertical_margin"  />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="@dimen/header_vertical_margin"   />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_address_section"
+        android:paddingTop="@dimen/top_padding"
+        android:textColor="@color/sub_header_text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="@dimen/header_vertical_margin"  />
+
+    <TextView
+        android:id="@+id/contact_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="@dimen/header_vertical_margin"  />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+       android:background="@drawable/actionbar_color"
+        >
+
+      <!--   <Button
+            android:id="@+id/contact_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+      		android:layout_weight="0.3"
+            android:text="@string/call" 
+            
+            style="?android:attr/borderlessButtonStyle"/>
+        <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/separator_color" />
+-->
+        <Button
+            android:id="@+id/contact_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/delete"
+            
+            style="?android:attr/borderlessButtonStyle" />
+        <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/separator_color" />
+
+        <Button
+            android:id="@+id/contact_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/edit_action_title" 
+            
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

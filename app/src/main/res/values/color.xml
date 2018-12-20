@@ -1,0 +1,14 @@
+<resources>
+    <color name="emphasis">#FB99B2</color>
+    <color name="bg_gray">#cecbce</color>
+    <color name="bg_green">#0093F0CF</color>
+    <color name="header_green">#E8F7C5</color>
+    <color name="header_text_color">#F74874</color>
+    <color name="sub_header_text_color">#A1183A</color>
+    <color name="section_color">#FFC878</color>
+    
+    <color name="poo_circle">#F7D1C5</color>
+    <color name="wet_circle">#F7F2C5</color>
+    <color name="bottle_circle">#C5CEF7</color>
+    <color name="separator_color">#4FA989</color>
+</resources>
