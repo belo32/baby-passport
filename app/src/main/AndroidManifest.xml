@@ -32,7 +32,7 @@
 
         <provider
             android:name="ca.babypassport.babypassport.provider.BabyPassportProvider"
-            android:authorities="ca.hajjar.babypassport.provider.babypassportprovider"
+            android:authorities="ca.babypassport.babypassport.provider.babypassportprovider"
             android:exported="false" />
     </application>
 
